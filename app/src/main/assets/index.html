@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="uz" >
+<head>
+  <meta charset="UTF-8">
+  <title>Iskandarbek Nosirov</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1 class='logo'>
+  Iskandarbek Nosirov
+  <span>development by</span>
+</h1>
+<input class='planet9' id='pluto' name='planet' type='radio'>
+<label class='pluto menu' for='pluto'>
+  <div class='preview'></div>
+  <div class='info'>
+    <h2>
+      <div class='pip'></div>
+      Pluton
+    </h2>
+    <h3>39.5 AU (Astronomik birlik)</h3>
+  </div>
+</label>
+<input class='planet8' id='neptune' name='planet' type='radio'>
+<label class='neptune menu' for='neptune'>
+  <div class='preview'></div>
+  <div class='info'>
+    <h2>
+      <div class='pip'></div>
+      Neptun
+    </h2>
+    <h3>30.06 AU (Astronomik birlik)</h3>
+  </div>
+</label>
+<input class='planet7' id='uranus' name='planet' type='radio'>
+<label class='uranus menu' for='uranus'>
+  <div class='preview'></div>
+  <div class='info'>
+    <h2>
+      <div class='pip'></div>
+      Uran
+    </h2>
+    <h3>19.18 AU (Astronomik birlik)</h3>
+  </div>
+</label>
+<input class='planet6' id='saturn' name='planet' type='radio'>
+<label class='saturn menu' for='saturn'>
+  <div class='preview'></div>
+  <div class='info'>
+    <h2>
+      <div class='pip'></div>
+      Saturn
+    </h2>
+    <h3>9.539 AU (Astronomik birlik)</h3>
+  </div>
+</label>
+<input class='planet5' id='jupiter' name='planet' type='radio'>
+<label class='jupiter menu' for='jupiter'>
+  <div class='preview'></div>
+  <div class='info'>
+    <h2>
+      <div class='pip'></div>
+      Yupiter
+    </h2>
+    <h3>5.203 AU (Astronomik birlik)</h3>
+  </div>
+</label>
+<input checked='checked' class='planet4' id='mars' name='planet' type='radio'>
+<label class='menu mars' for='mars'>
+  <div class='preview'></div>
+  <div class='info'>
+    <h2>
+      <div class='pip'></div>
+      Mars
+    </h2>
+    <h3>1.524 AU (Astronomik birlik)</h3>
+  </div>
+</label>
+<input checked='checked' class='planet3' id='earth' name='planet' type='radio'>
+<label class='menu earth' for='earth'>
+  <div class='preview'></div>
+  <div class='info'>
+    <h2>
+      <div class='pip'></div>
+      Yer
+    </h2>
+    <h3>1 AU (Astronomik birlik)</h3>
+  </div>
+</label>
+<input checked='checked' class='planet2' id='venus' name='planet' type='radio'>
+<label class='menu venus' for='venus'>
+  <div class='preview'></div>
+  <div class='info'>
+    <h2>
+      <div class='pip'></div>
+      Venera
+    </h2>
+    <h3>0.723 AU (Astronomik birlik)</h3>
+  </div>
+</label>
+<input checked='checked' class='planet1' id='mercury' name='planet' type='radio'>
+<label class='menu mercury' for='mercury'>
+  <div class='preview'></div>
+  <div class='info'>
+    <h2>
+      <div class='pip'></div>
+      Merkuriy
+    </h2>
+    <h3>0.39 AU (Astronomik birlik)</h3>
+  </div>
+</label>
+<div class='solar'>
+  <div class='solar_systm'>
+    <div class='planet mercury'>
+      <div class='planet_description mercury'>
+        <h2>Sayyora</h2>
+        <h1>Merkuriy</h1>
+        <p>Quyoshga eng yaqin sayyora. U Quyosh atrofida boshqa barcha sayyoralarga qayta tiklanishi mumkin, Rimliklar uni tezkor xabarchi xudosining sharafiga shunday nomlashgan.</p>
+        <label for='readMerkuriy'>
+          <a>
+            Yana
+            <span></span>
+          </a>
+        </label>
+      </div>
+      <div class='overlay'></div>
+    </div>
+  </div>
+  <div class='solar_systm'>
+    <div class='planet venus'>
+      <div class='planet_description venus'>
+        <h2>Sayyora</h2>
+        <h1>Venera</h1>
+        <p>Rim sevgi va go'zallik ma'budasi sharafiga nomlangan. Qadim zamonlarda Venera ko'pincha ikki xil yulduz, kechki yulduz va tong yulduzi deb hisoblangan.</p>
+        <label for='readVenera'>
+          <a>
+            Yana
+            <span></span>
+          </a>
+        </label>
+      </div>
+      <div class='overlay'></div>
+    </div>
+  </div>
+  <div class='solar_systm'>
+    <div class='planet earth'>
+      <div class='moon moon'>
+        <h3>Moon</h3>
+        <h2>Moon</h2>
+      </div>
+      <div class='trajectory m'></div>
+      <div class='planet_description earth'>
+        <h2>Sayyora</h2>
+        <h1>Yer</h1>
+        <p>Ha, bizning uyimiz. Bu erkin kislorod, uning yuzasida suyuq suv okeanlari va, albatta, hayotni o'z ichiga olgan atmosferaga ega bo'lgan yagona sayyoradir.</p>
+        <label for='readYer'>
+          <a>
+             Yana
+            <span></span>
+          </a>
+        </label>
+      </div>
+      <div class='overlay'></div>
+    </div>
+  </div>
+  <div class='solar_systm'>
+    <div class='planet mars'>
+      <div class='moon deimos'>
+        <h3>Moon</h3>
+        <h2>Deimos</h2>
+      </div>
+      <div class='trajectory d'></div>
+      <div class='moon phoebos'>
+        <h3>Moon</h3>
+        <h2>Phoebos</h2>
+      </div>
+      <div class='trajectory p'></div>
+      <div class='planet_description mars'>
+        <h2>Sayyora</h2>
+        <h1>Mars</h1>
+        <p>Quyoshdan to'rtinchi sayyora va Quyosh tizimidagi ikkinchi eng kichik sayyora. Ko'pincha "Qizil Sayyora" deb ta'riflangan Rim urush xudosi sharafiga nomlangan..</p>
+        <label for='readMars'>
+          <a>
+            Yana
+            <span></span>
+          </a>
+        </label>
+      </div>
+      <div class='overlay'></div>
+    </div>
+  </div>
+  <div class='solar_systm'>
+    <div class='planet jupiter'>
+      <div class='moon lo'>
+        <h3>Moon</h3>
+        <h2>Io</h2>
+      </div>
+      <div class='moon europa'>
+        <h3>Moon</h3>
+        <h2>Europa</h2>
+      </div>
+      <div class='moon ganymede'>
+        <h3>Moon</h3>
+        <h2>Ganymede</h2>
+      </div>
+      <div class='trajectory lop'></div>
+      <div class='trajectory eu'></div>
+      <div class='trajectory ga'></div>
+      <div class='planet_description jupiter'>
+        <h2>Sayyora</h2>
+        <h1>Yupiter</h1>
+        <p>Yupiter - Quyosh tizimidagi eng katta sayyora. To'g'ri, u Rim mifologiyasida xudolar shohi sharafiga nomlangan.</p>
+        <label for='readYupiter'>
+          <a>
+            Yana
+            <span></span>
+          </a>
+        </label>
+      </div>
+      <div class='overlay'></div>
+    </div>
+  </div>
+  <div class='solar_systm'>
+    <div class='planet saturn'>
+      <div class='moon titan'>
+        <h3>Moon</h3>
+        <h2>Titan</h2>
+      </div>
+      <div class='moon dione'>
+        <h3>Moon</h3>
+        <h2>Dione</h2>
+      </div>
+      <div class='moon enceladus'>
+        <h3>Moon</h3>
+        <h2>Enceladus</h2>
+      </div>
+      <div class='trajectory ti'></div>
+      <div class='trajectory di'></div>
+      <div class='trajectory enc'></div>
+      <div class='planet_description saturn'>
+        <h2>Sayyora</h2>
+        <h1>Saturn</h1>
+        <p>Saturn Quyoshdan oltinchi va Quyosh tizimidagi ikkinchi eng katta sayyora. Saturn — Rimliklarning Titanlar hukmdori Kronosning nomi bilan atalgan.</p>
+        <label for='readSaturn'>
+          <a>
+            Yana
+            <span></span>
+          </a>
+        </label>
+      </div>
+      <div class='overlay'></div>
+    </div>
+  </div>
+  <div class='solar_systm'>
+    <div class='planet uranus'>
+      <div class='moon miranda'>
+        <h3>Moon</h3>
+        <h2>Miranda</h2>
+      </div>
+      <div class='moon ariel'>
+        <h3>Moon</h3>
+        <h2>Ariel</h2>
+      </div>
+      <div class='moon umbriel'>
+        <h3>Moon</h3>
+        <h2>Umbriel</h2>
+      </div>
+      <div class='trajectory mir'></div>
+      <div class='trajectory ari'></div>
+      <div class='trajectory umb'></div>
+      <div class='planet_description uranus'>
+        <h2>Sayyora</h2>
+        <h1>Uran</h1>
+        <p>Ilmiy kashf qilingan birinchi sayyora. Uranning o'qi Quyosh tomon to'g'ridan-to'g'ri yo'nalganligi bilan ajralib turadi.</p>
+        <label for='readUran'>
+          <a>
+            Yana
+            <span></span>
+          </a>
+        </label>
+      </div>
+      <div class='overlay'></div>
+    </div>
+  </div>
+  <div class='solar_systm'>
+    <div class='planet neptune'>
+      <div class='moon triton'>
+        <h3>Moon</h3>
+        <h2>Triton</h2>
+      </div>
+      <div class='moon proteus'>
+        <h3>Moon</h3>
+        <h2>Proteus</h2>
+      </div>
+      <div class='moon nereid'>
+        <h3>Moon</h3>
+        <h2>Nereid</h2>
+      </div>
+      <div class='trajectory tri'></div>
+      <div class='trajectory pro'></div>
+      <div class='trajectory ner'></div>
+      <div class='planet_description neptune'>
+        <h2>Sayyora</h2>
+        <h1>Neptun</h1>
+        <p>Neptun Quyoshdan sakkizinchi sayyora bo'lib, u ilk bor matematik hisob-kitoblar orqali kashf etilgan.</p>
+        <label for='readNeptun'>
+          <a>
+            Yana
+            <span></span>
+          </a>
+        </label>
+      </div>
+      <div class='overlay'></div>
+    </div>
+  </div>
+  <div class='solar_systm'>
+    <div class='planet pluto'>
+      <div class='planet_description pluto'>
+        <h2>Mitt sayyora</h2>
+        <h1>Pluton</h1>
+        <p>Bir paytlar quyoshdan to'qqizinchi va eng uzoq sayyora hisoblangan Pluton hozirda quyosh sistemasidagi eng katta mitti sayyora hisoblanadi.</p>
+        <label for='readPluton'>
+          <a>
+            Yana
+            <span></span>
+          </a>
+        </label>
+      </div>
+      <div class='overlay'></div>
+    </div>
+  </div>
+</div>
+<input class='read' id='readMerkuriy' name='mercuryRead' type='radio'>
+<label class='closeBig' for='closeMerkuriy'></label>
+<input class='read' id='closeMerkuriy' name='mercuryRead' type='radio'>
+
+
+<div class='panel'>
+  <h1>Merkuriy</h1>
+  <p>Merkuriy Quyoshga eng yaqin sayyora. Shuning uchun, u boshqa sayyoralar ichida Quyoshni eng tez aylanadigan sayyora hisoblanadi va shuning uchun Rimliklar uni o'z tez poygachi xudolari sharafiga nomladilar.</p>
+  <p>Sumeriylar Merkuriyni kamida 5,000 yil oldin bilishgan. U odatda yozuv xudosi Nabu bilan bog'langan. Merkuriy, shuningdek, uning tong va kechki yulduz sifatidagi ko'rinishi uchun alohida nomlarga ega edi. Grek astronomlari esa, ikki nomning bir xil jismlarga taalluqli ekanligini bilishgan va Heraklit, miloddan avvalgi 500-yillarda Merkuriy va Veneraning Quyosh atrofida, Yer atrofida emas, aylanayotganini to'g'ri tushungan.</p>
+  <img src='https://i2.wp.com/www.astronomytrek.com/wp-content/uploads/2012/11/mercury-1.jpg?fit=678%2C381&amp;ssl=1'>
+  <h2>Merkuriyda bir yil faqat 88 kun.</h2>
+  <p>Merkuriyda bir quyosh kuni (sayyoraning yuzasida o'ndan o'nigacha bo'lgan vaqt) 176 Yer kuniga teng, sidereal kuni esa (qattiq nuqtaga nisbatan 1 aylanish vaqti) 59 Yer kuni davom etadi. Merkuriy deyarli Quyoshga nisbatan tidally locked bo'lib, vaqt o'tishi bilan sayyoraning aylanishi Quyosh atrofidagi orbitaga deyarli mos keladigan darajada sekinlashgan. Merkuriy, shuningdek, barcha sayyoralar ichida eng yuqori orbital eksantriklikka ega bo'lib, uning Quyoshdan masofasi 46 million km dan 70 million km gacha o'zgaradi.</p>
+  <h2>Merkuriy eng kichik sayyora hisoblanadi.</h2>
+  <p>Ko'z bilan ko'rish mumkin bo'lgan besh sayyoradan biri bo'lgan Merkuriy, ekvatori bo'yicha atigi 4,879 kilometr, Yerning esa 12,742 kilometr.</p>
+  <h2>Merkuriy ikkinchi eng zich sayyora.</h2>
+  <p>Sayyora kichik bo'lsa ham, Merkuriy juda zich. Har bir kub santimetrlik zichlik 5.4 grammni tashkil etadi, faqat Yerda yuqori zichlik mavjud. Bu asosan Merkuriy asosan og'ir metall va toshlardan tashkil topganligi sababli.</p>
+  <h2>Merkuriyda "burmalar" mavjud.</h2>
+  <p>Sayyoraning temir yadrosi sovib, qisqarishi bilan, sayyora yuzasi burmalandi. Ular "Lobate Scarps" deb ataladi. Ushbu scarplar bir milgacha balandlikda va yuzlab milga cho'zilgan.</p>
+  <br>
+</div>
+
+<input class='read' id='readVenera' name='venusRead' type='radio'>
+<label class='closeBig' for='closeVenera'></label>
+<input class='read' id='closeVenera' name='venusRead' type='radio'>
+<div class='panel'>
+  <h1>Venera</h1>
+  <p>Venera, Quyoshdan ikkinchi bo'lgan sayyora, sevgi va go'zallik ilohasi sharafiga nomlangan. Ushbu sayyora — ayolga atalgan yagona sayyora — ehtimol, qadimgi astronomlar tomonidan bilinishiga ko'ra, o'z pantheonining eng go'zal xudosi uchun nomlangan, chunki u beshta sayyora ichida eng yorqiniga ega edi.</p>
+  <p>Qadimgi zamonlarda, Venera ikki xil yulduz sifatida, kechki yulduz va tong yulduzi sifatida qabul qilingan — bu ular quyosh botganda va chiqishda birinchi bo'lib paydo bo'lgan. Lotin tilida, ularning har biri mos ravishda "Vesper" va "Lucifer" deb nomlangan. Xristian davrida Lucifer, yoki "nurlar keltiruvchi," uning tushishi oldidan Shayton nomi bilan tanilgan. Biroq, Venera haqidagi qo'shimcha kuzatishlar, uning jiddiy muhitini ko'rsatadi. Bu Venera yaqinida yaqindan kuzatish juda qiyin bo'lgan, chunki kosmik kemalar uning yuzasida uzoq yashamaydi.</p>
+  <img src='https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2014/2-whatistheave.jpg'>
+  <h2>Venerada bir kun yilga qaraganda uzoq davom etadi.</h2>
+  <p>Uning o'qi atrofida bir marta aylanishi (sidereal kuni) 243 Yer kunini oladi. Sayyoraning Quyosh atrofida aylanishi 225 Yer kunini oladi, bu Yerning 365 kuniga nisbatan. Veneraning yuzasida bir kun (quyosh kuni) 117 Yer kunini oladi.</p>
+  <h2>Venera ko'plab boshqa sayyoralar bilan teskari aylanishga ega.</h2>
+  <p>Bu Venera quyoshga teskari aylanayotganini anglatadi, bu ham retrograd aylanish deb ataladi. Buning mumkin bo'lgan sababi, o'tmishda asteroidal yoki boshqa bir ob'ekt bilan to'qnashuv bo'lishi mumkin, bu esa sayyoraning aylanish yo'nalishini o'zgartirishga olib kelgan. Shuningdek, Venera boshqa sayyoralardan farqli o'laroq, hech qanday tabiiy yo'ldoshga ega emas.</p>
+  <h2>Venera kecha osmonida ikkinchi eng yorqin ob'ektdir.</h2>
+  <p>Faqat Oy undan yorqinroqdir. -3.8 dan -4.6 gacha bo'lgan magnituda bilan, Venera shu qadar yorqin bo'lib, uni ochiq kunda ko'rish mumkin.</p>
+  <h2>Venerada atmosferaning bosimi Yerning 92 barobariga teng.</h2>
+  <p>Uning o'lchamlari va massasi Yerga o'xshash bo'lsa-da, kichik asteroidalar uning atmosferasiga kirganda eziladi, bu esa sayyora yuzasida hech qanday kichik kraterlar yo'q degan ma'noni anglatadi. Odamlar uchun sayyora yuzasida his qilinadigan bosim, Yer yuzasida chuqur dengizda his qilinadigan bosimga teng bo'ladi.</p>
+  <br>
+</div>
+
+<input class='read' id='readYer' name='earthRead' type='radio'>
+<label class='closeBig' for='closeYer'></label>
+<input class='read' id='closeYer' name='earthRead' type='radio'>
+<div class='panel'>
+  <h1>Yer</h1>
+  <p>Yer, bizning uyimiz, Quyoshdan uchinchi bo'lgan sayyoradir. U erkin kislorodga ega bo'lgan atmosferasi, yuzasida suyuq suv okeanlari va, albatta, hayot mavjud bo'lgan yagona sayyoradir.</p>
+  <p>Yer, quyosh tizimidagi sayyoralar ichida beshinchi eng katta sayyora — to'rt gaz gigantlaridan, Yupiter, Saturn, Uran va Neptun, lekin uchta boshqa qattiq sayyoradan kattaroq.</p>
+  <img src='https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350'>
+  <h2>Yernning aylanishi asta-sekin sekinlashmoqda.</h2>
+  <p>Bu sekinlashish deyarli sezilmaydigan tarzda sodir bo'lmoqda, taxminan 100 yilda 17 millisekund, garchi uning sodir bo'lish tezligi mukammal emas. Bu bizning kunlarimizni uzaytirishga olib keladi, lekin juda sekin sodir bo'ladi, shuning uchun kunning uzunligi 25 soatga oshishiga 140 million yil o'tishi mumkin.</p>
+  <h2>Yer bir paytlar koinotning markazi deb hisoblangan.</h2>
+  <p>Quyosh va sayyoralar o'rtasidagi ko'rinishlariga ko'ra, qadimgi olimlar Yerni harakatsiz deb hisoblashgan, boshqa osmon jismlari esa uning atrofida aylanishgan. Nihoyat, Quyosh koinotning markazi ekanligi tasdiqlandi, shuning uchun Yerni Yerning orbitasida turishiga qarab faqatgina muayyan muvozanatga erishishimiz kerak.</p>
+  <h2>Yerda hayot bor.</h2>
+  <p>Bizning sayyoramiz o'simliklar va hayvonlar kabi murakkab hayot shakllari uchun ideal sharoitlarni taqdim etadi. Yerda hayot haqida hech qanday shubha yo'q, u eng ko'p xursandchilik va shodlik keltiradi, shuning uchun u buni tasavvur qilishda o'zini alohida his qiladi.</p>
+  <h2>Yer 4.5 milliard yil avval paydo bo'lgan.</h2>
+  <p>Bu asosan juda aniq zamonga to'g'ri keladi, garchi odamlar uning kelib chiqishi haqida ko'proq bilish uchun ko'p vaqt sarflashadi. Yer kelib chiqishi hozirgacha muammoli va boshqa sayyoralar bilan hamkorlikda kuzatilishi mumkin.</p>
+  <br>
+</div>
+
+<input class='read' id='readMars' name='marsRead' type='radio'>
+<label class='closeBig' for='closeMars'></label>
+<input class='read' id='closeMars' name='marsRead' type='radio'>
+<div class='panel'>
+  <h1>Mars</h1>
+  <p>Mars, ham ayolga atalgan sayyora — jangovar yoki urush xudosi sharafiga nomlangan. Mavjud bo'lgan o'ziga xos o'rni tufayli, Mars uzoq vaqt davomida uzoq vaqtlardan buyon ochiq va qorong'i nishon sifatida tanilgan. U faqat yulduzlar va boshqa sayyoralar o'rtasida bir oz farqlanadi.</p>
+  <p>Mars 4,500,000,000 yildan ortiq, sayyora 6 miliard yildan ortiq muddatga qo'shilishi mumkin. Uning atmosferasi quyoshdan 1,500 km uzoqlikda bo'lgan yerdan boshlanadi. Sayyora 11% ishlab chiqarilgan materiallardan iborat.</p>
+  <img src='https://cdn.britannica.com/21/164121-050-335A8B4F/Mars-planet-surface.jpg'>
+  <h2>Marsda mavjud bo'lgan erlar 1 yildan 687 kunga to'g'ri keladi.</h2>
+  <p>Marsning Quyosh atrofida aylanishi 687 kunni oladi, bu esa Yerning 365 kunidan ikki marta ko'pdir. Shuningdek, Marsning kunlari ham tez-tez 24 soat 37 daqiqa va 22 soniyaga tengdir.</p>
+  <h2>Marsni "Qizil Sayyora" deb atashadi.</h2>
+  <p>Marsda o'simliklar yoki hayvonlar mavjud emas, ammo uning yuzasi temir oksidi bilan qoplanganligi sababli, bu juda qizil rangga ega. Buning sababi Marsning atmosferasida suvning yo'qligi va havoning changli bo'lishidir.</p>
+  <h2>Marsda ikkita tabiiy yo'ldoshi bor.</h2>
+  <p>Bu yo'ldoshlar Phobos va Deimos deb ataladi. Phobos, Marsning eng yaqin yo'ldoshi, Yerga nisbatan 6,000 km masofada joylashgan va 7 soat 39 daqiqada aylanishi mumkin. Deimos, Marsning eng katta yo'ldoshi, Phobosdan uzoqda, 24 soat ichida aylanadi.</p>
+  <br>
+</div>
+
+<input class='read' id='readYupiter' name='jupiterRead' type='radio'>
+<label class='closeBig' for='closeYupiter'></label>
+<input class='read' id='closeYupiter' name='jupiterRead' type='radio'>
+<div class='panel'>
+  <h1>Yupiter</h1>
+  <p>Yupiter — Quyosh tizimidagi eng katta sayyora. Yupiter eng katta sayyora bo'lib, Yerning 1,300 marta ko'proq massaga ega. Odatda, uni boshi cho'zilgan bulutlar, izlanishlar, ayrim joylarida qizil rangni ko'rsatadi. Yupiter, o'zining ko'rinishida eng keng tarqalgan sayyoralar bilan ko'p qismga ega bo'lgan sayyoradir.</p>
+  <p>U, shuningdek, faqat shuncha yuqori zichlikka ega bo'lgan 8,400 km ko'rsatadigan qattiq yadrosi bilan o'ralgan, shuning uchun Yupiterning ichki tuzilishi asosan suyuq vodorod va heliumga bog'liqdir.</p>
+  <img src='https://cdn.britannica.com/41/154841-050-BBC614F/Jupiter-planet.jpg'>
+  <h2>Yupiter 12 yildan ortiq vaqt davomida Quyosh atrofida aylanishi kerak.</h2>
+  <p>Yupiterning Quyosh atrofidagi aylanishi 11,860 Yer kunini oladi. Yupiterning kunlari 9 soat 55 daqiqani oladi, bu esa Yupiterning tez aylanishini ko'rsatadi.</p>
+  <h2>Yupiterning qattiq yadrosi 18,000 daraja Selsiy darajasiga yetishi mumkin.</h2>
+  <p>Yupiterning qattiq yadrosi bosimda juda yuqori haroratga ega bo'lib, bu yuqori haroratda vodorod va helium gazlariga kirish imkonini beradi.</p>
+  <h2>Yupiterda ko'p sonli tabiiy yo'ldoshlar mavjud.</h2>
+  <p>Yupiterda 80 dan ortiq tabiiy yo'ldoshlar mavjud. Eng katta yo'ldoshlar Ganimed, Kalisto, Io va Europa. Ular Quyosh tizimidagi eng katta yo'ldoshlar hisoblanadi.</p>
+  <br>
+</div>
+
+
+<!-- partial -->
+  
+</body>
+</html>
